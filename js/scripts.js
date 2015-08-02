@@ -206,7 +206,7 @@
 	var map;
 	function initialize_full_width_map() {
 		if ($('.map').length) {
-			var myLatLng = new google.maps.LatLng(-37.814199, 144.961560);
+			var myLatLng = new google.maps.LatLng(40.5743411,-74.3198329);
 			var mapOptions = {
 				zoom: 15,
 				center: myLatLng,
