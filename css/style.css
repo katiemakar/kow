@@ -1032,9 +1032,29 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]):not([type=radio])
 	background: #fff;
 	z-index: 9;
 }
-.navigation .logo img {
+.navigation .logo {
 	float: left;
 }
+
+.navigation .logo ul {
+	margin-bottom: 0;
+}
+
+.navigation .logo ul>li {
+	display: inline-block;
+}
+
+.navigation .logo ul>li a {
+	font-size: 20px;
+	color: #353537;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 64px;
+	height: 64px;
+	display: inline-block;
+	position: relative;
+}
+
 .main-nav {
 	float: right;
 	font-size: 0;
